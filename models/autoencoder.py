@@ -6,7 +6,6 @@ from pyod.models.base_dl import BaseDeepLearningDetector
 from pyod.utils.stat_models import pairwise_distances_no_broadcast
 from pyod.utils.torch_utility import LinearBlock
 
-
 class LargeDataset(Dataset):
     def __init__(self, data):
         self.data = data
@@ -16,7 +15,6 @@ class LargeDataset(Dataset):
 
     def __getitem__(self, idx):
         return self.data[idx]
-
 
 class AutoEncoder(BaseDeepLearningDetector):
     def __init__(self, contamination=0.1, preprocessing=True, lr=1e-3, epoch_num=10, batch_size=32,
@@ -111,7 +109,6 @@ class AutoEncoder(BaseDeepLearningDetector):
 
     def _get_device(self):
         return torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
 
 class AutoEncoderModel(nn.Module):
     def __init__(self, feature_size, hidden_neuron_list=None, hidden_activation_name='relu', batch_norm=True,

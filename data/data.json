@@ -36,5 +36,15 @@
     {"type": "person", "name": "Eve", "age": 30},
     {"type": "animal", "species": "cat", "age": 4},
     {"type": "vehicle", "model": "sedan", "year": 2020}
-  ]
+  ],
+   "image_data": [
+        "C:/Users/boual/OneDrive/Pictures/Screenshots/Screenshot 2024-11-07 224020.png",
+        "C:/Users/boual/OneDrive/Pictures/Screenshots/Screenshot 2024-11-07 213058.png",
+        "C:/Users/boual/OneDrive/Pictures/Screenshots/Screenshot 2024-11-05 134445.png"
+    ],
+    "url_data": [
+        "https://github.com/CASANOVA660/Anomaly_derection_ML_model/blob/master/utils/data_loader.py",
+        "https://192.168.240.141/app/login?",
+        "https://casanova660.github.io/portfolio/?fbclid=IwY2xjawF54DRleHRuA2FlbQIxMAABHeCj4WeBsGSG9bBMMuZ00yT4oVtqOdgYOMVllkwuxyu-UbgTzei83AdT0Q_aem_hJhuO3bzE66OfBLiQYd2pA"
+    ]
 }
